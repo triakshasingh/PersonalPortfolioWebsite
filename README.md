@@ -10,6 +10,16 @@ A dark, terminal-inspired personal portfolio built with Next.js. Features a Bloo
 - **Framer Motion v11**
 - **Lucide React**
 
+## Deploy (Vercel)
+
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/triakshasingh/PersonalPortfolioWebsite)
+
+1. Go to [vercel.com](https://vercel.com) and import this repo
+2. Click **Deploy** — no configuration needed
+3. Add your custom domain in Project → Settings → Domains
+
+No required environment variables.
+
 ## Run locally
 
 ```bash
@@ -18,17 +28,6 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-## Build & deploy
-
-```bash
-npm run build    # production build
-npm run start    # production server
-```
-
-Deploy to Vercel: push to GitHub and connect the repo, or run `npx vercel`.
-
-No required environment variables for static content.
 
 ## Project structure
 
