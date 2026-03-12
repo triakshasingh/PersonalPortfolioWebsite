@@ -57,12 +57,8 @@ export default function MarketViewPage() {
   // When a market is selected, show the Bloomberg terminal full-screen
   // (it manages its own top bars and layout)
   if (selectedMarket) {
-    return (
-      <>
-        {showRotate && <LandscapeWarning />}
-        <MarketViewChart onBack={() => setSelectedMarket(null)} />
-      </>
-    );
+    if (showRotate) return <LandscapeWarning />;
+    return <MarketViewChart onBack={() => setSelectedMarket(null)} />;
   }
 
   return (
