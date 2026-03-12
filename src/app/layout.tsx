@@ -67,7 +67,7 @@ const jsonLd = {
 
 export const metadata: Metadata = {
   title: {
-    default: "Triaksha Singh | Systems & Quant Engineering",
+    default: "Triaksha Singh",
     template: "%s | Triaksha Singh",
   },
   description:
@@ -101,7 +101,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://triaksha.dev",
     siteName: "Triaksha Singh — Portfolio",
-    title: "Triaksha Singh | Systems & Quant Engineering",
+    title: "Triaksha Singh",
     description:
       "Portfolio of Triaksha Singh — ML systems, quant engineering, robotics control, and bioengineering research. ECE @ UW.",
     // OG image: add opengraph-image.png (1200×630) to /app or use dynamic route /opengraph-image.tsx
@@ -109,7 +109,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Triaksha Singh | Systems & Quant Engineering",
+    title: "Triaksha Singh",
     description:
       "ML systems, quant engineering, robotics, and bioengineering research. ECE @ University of Washington.",
     creator: "@triaksha", // [PLACEHOLDER: Update with your Twitter handle]
