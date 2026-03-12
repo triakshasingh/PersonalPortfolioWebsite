@@ -598,7 +598,7 @@ export function MarketViewChart({ onBack }: { onBack: () => void }) {
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
               {([
-                { label: "STRONG FUNDAMENTALS", value: "3.6 GPA · UW ECE — rigorous quant foundation in signals, systems & CS", color: "#00d4ff" },
+                { label: "STRONG FUNDAMENTALS", value: "UW ECE — rigorous quant foundation in signals, systems & CS", color: "#00d4ff" },
                 { label: "EARLY STAGE, HIGH UPSIDE", value: "2nd-year undergrad already shipping real products & research — asymmetric growth curve", color: "#00ff88" },
                 { label: "PROVEN ALPHA GENERATION", value: "Built quant tools & research systems from scratch — not just theory", color: "#6366F1" },
                 { label: "DIVERSIFIED EXPOSURE", value: "Bioengineering research, robotics, fintech & AI — multi-sector operator with deep focus", color: "#8B5CF6" },

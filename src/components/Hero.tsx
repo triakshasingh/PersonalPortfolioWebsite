@@ -76,7 +76,7 @@ export default function Hero() {
         >
           <span className="w-6 h-px bg-[#00d4ff]/60" />
           <span className="font-mono text-[13px] uppercase tracking-[0.3em] text-[#00d4ff]">
-            ECE · University of Washington · GPA 3.6 · Class of 2027
+            ECE · University of Washington · Class of 2027
           </span>
           <span className="w-6 h-px bg-[#00d4ff]/60" />
         </motion.div>

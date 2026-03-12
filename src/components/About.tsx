@@ -36,7 +36,6 @@ const FOCUS_AREAS = [
 
 const STATS = [
   { value: "3", label: "Roles" },
-  { value: "3.6", label: "GPA" },
   { value: "2027", label: "Graduation" },
   { value: "2026", label: "Available" },
 ];
@@ -73,7 +72,7 @@ export default function About() {
           {/* Bio + education */}
           <motion.div variants={item} className="max-w-2xl space-y-4">
             <p className="text-lg text-[#C8CEDE] leading-relaxed">
-              ECE student at the University of Washington (GPA 3.6) building production systems
+              ECE student at the University of Washington building production systems
               that hold up under real constraints — latency budgets, hardware limits, and
               concurrent user access.
             </p>
@@ -91,7 +90,7 @@ export default function About() {
             <div className="inline-flex items-center gap-3 rounded-lg border border-[#1A1A2E] bg-[#0D0D14] px-4 py-2">
               <div className="w-1.5 h-1.5 rounded-full bg-[#6366F1]" />
               <span className="font-mono text-xs text-[#9CA3AF]">
-                University of Washington · BS ECE · GPA 3.6 · Sep 2024 – Jun 2027
+                University of Washington · BS ECE · Sep 2024 – Jun 2027
               </span>
             </div>
           </motion.div>
