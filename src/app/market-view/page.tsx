@@ -70,7 +70,6 @@ export default function MarketViewPage() {
       className="min-h-screen bg-[#050508] text-white"
       style={{ fontFamily: "var(--font-mono), monospace" }}
     >
-      {showRotate && <LandscapeWarning />}
       {/* Terminal top bar — shown only on the MarketSelect screen */}
       <div
         className="flex items-center justify-between px-6 h-14 border-b"
