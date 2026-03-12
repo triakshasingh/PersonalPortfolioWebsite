@@ -26,7 +26,7 @@ const jsonLd = {
       name: "Triaksha Singh",
       jobTitle: "Electrical & Computer Engineering Student",
       description:
-        "ECE student at University of Washington specializing in AI systems, quantitative infrastructure, embedded hardware, and ML-powered health tech. Founder of iSENSE.",
+        "ECE student at University of Washington specializing in AI systems, quantitative infrastructure, embedded hardware, and ML-powered health tech.",
       url: "https://triaksha.dev",
       email: "tsingh05@uw.edu",
       alumniOf: {
@@ -71,7 +71,7 @@ export const metadata: Metadata = {
     template: "%s | Triaksha Singh",
   },
   description:
-    "ECE @ University of Washington. Building at the intersection of ML systems, quantitative engineering, and robotics. Co-founder of iSENSE. Open to Summer 2026 internships.",
+    "ECE @ University of Washington. Building at the intersection of ML systems, quantitative engineering, and robotics. Open to Summer 2026 internships.",
   keywords: [
     "Triaksha Singh",
     "ECE",
@@ -85,7 +85,6 @@ export const metadata: Metadata = {
     "Embedded Systems",
     "Machine Learning",
     "Health Tech",
-    "iSENSE",
     "Software Engineering",
     "Systems Programming",
     "Robotics",
@@ -104,7 +103,7 @@ export const metadata: Metadata = {
     siteName: "Triaksha Singh — Portfolio",
     title: "Triaksha Singh | Systems & Quant Engineering",
     description:
-      "Portfolio of Triaksha Singh — ML systems, quant engineering, robotics control, and bioengineering research. ECE @ UW, Co-founder of iSENSE.",
+      "Portfolio of Triaksha Singh — ML systems, quant engineering, robotics control, and bioengineering research. ECE @ UW.",
     // OG image: add opengraph-image.png (1200×630) to /app or use dynamic route /opengraph-image.tsx
     // images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "Triaksha Singh" }],
   },

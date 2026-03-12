@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
-import { CheckCircle, Mail, FileText } from "lucide-react";
+import { CheckCircle, Mail, FileText, Phone } from "lucide-react";
 
 export default function Contact() {
   const ref = useRef(null);
@@ -40,7 +40,7 @@ export default function Contact() {
           </div>
 
           {/* Contact cards */}
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {/* Email */}
             <button
               onClick={copyEmail}
@@ -60,6 +60,20 @@ export default function Contact() {
                 </p>
               </div>
             </button>
+
+            {/* Phone */}
+            <a
+              href="tel:+12066056394"
+              className="flex items-center gap-3 rounded-xl border border-[#1A1A2E] bg-[#0D0D14] p-4 hover:border-[#10B981]/40 transition-colors duration-200 group"
+            >
+              <div className="p-2 rounded-lg bg-[#10B981]/10 shrink-0">
+                <Phone size={18} className="text-[#10B981]" />
+              </div>
+              <div className="min-w-0">
+                <p className="font-mono text-[10px] uppercase tracking-[0.2em] text-[#9CA3AF] mb-0.5">Phone</p>
+                <p className="text-sm text-[#C8CEDE] group-hover:text-white transition-colors">+1 (206) 605-6394</p>
+              </div>
+            </a>
 
             {/* GitHub */}
             <a
@@ -118,7 +132,7 @@ export default function Contact() {
           </div>
 
           <p className="font-mono text-[11px] text-[#6B7280]">
-            triakshasingh@gmail.com · tsingh05@uw.edu
+            triakshasingh@gmail.com · tsingh05@uw.edu · +1 (206) 605-6394
           </p>
         </motion.div>
       </div>

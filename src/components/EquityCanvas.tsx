@@ -68,7 +68,7 @@ const THEME = {
     nodeInner: "rgba(34,197,94,0.2)",
     nodeRing: "rgba(34,197,94,0.4)",
     label: "High School Era",
-    desc: "First principles to real systems. iSENSE, quant infra, zero to functional.",
+    desc: "First principles to real systems. Quant infra, hardware, zero to functional.",
     tag: "$TRIAX.HS",
   },
   uw: {

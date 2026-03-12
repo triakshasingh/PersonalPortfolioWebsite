@@ -600,7 +600,7 @@ export function MarketViewChart({ onBack }: { onBack: () => void }) {
               {([
                 { label: "STRONG FUNDAMENTALS", value: "3.6 GPA · UW ECE — rigorous quant foundation in signals, systems & CS", color: "#00d4ff" },
                 { label: "EARLY STAGE, HIGH UPSIDE", value: "2nd-year undergrad already shipping real products & research — asymmetric growth curve", color: "#00ff88" },
-                { label: "PROVEN ALPHA GENERATION", value: "Co-founded iSENSE (AI ocular diagnostics) & built quant tools from scratch — not just theory", color: "#6366F1" },
+                { label: "PROVEN ALPHA GENERATION", value: "Built quant tools & research systems from scratch — not just theory", color: "#6366F1" },
                 { label: "DIVERSIFIED EXPOSURE", value: "Bioengineering research, robotics, fintech & AI — multi-sector operator with deep focus", color: "#8B5CF6" },
                 { label: "LOW OVERHEAD", value: "Self-directed, fast learner, no ego — ships fast and iterates faster", color: "#22D3EE" },
                 { label: "LONG INVESTMENT HORIZON", value: "3+ years of compounding experience ahead — best entry point is now", color: "#F59E0B" },
