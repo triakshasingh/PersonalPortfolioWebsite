@@ -7,7 +7,7 @@ import { usePathname, useRouter } from "next/navigation";
 const CONTACT_ROWS = [
   { label: "EMAIL",    value: "triakshasingh@gmail.com",  href: "mailto:triakshasingh@gmail.com",         copyable: true  },
   { label: "SCHOOL",  value: "tsingh05@uw.edu",           href: "mailto:tsingh05@uw.edu",                 copyable: true  },
-  { label: "PHONE",   value: "+1 (xxx) xxx-xxxx",         href: "tel:+1xxxxxxxxxx",                       copyable: false },
+  { label: "PHONE",   value: "+1 (206) 605-6394",          href: "tel:+12066056394",                       copyable: false },
   { label: "LINKEDIN",value: "in/triakshasingh",          href: "https://linkedin.com/in/triakshasingh/", copyable: false },
   { label: "GITHUB",  value: "github.com/triakshasingh",  href: "https://github.com/triakshasingh",       copyable: false },
 ];
